@@ -35,14 +35,15 @@ function Layout({ children }) {
                 className={styles.menuContainer}
                 id="menuContainer"
               >
-                <div className={styles.robDiamondTitle}>
-                  <Link href="/#">
-                    <h3>
-                      <span className={styles.robOpen}>ROB </span>
-                      <span className={styles.diamondOpen}>DIAMOND</span>
-                    </h3>
-                  </Link>
-                </div>
+                <Link href="/#">
+                  <div className={styles.titleOpen}>
+                    <div className={styles.infoOpen}>INFO </div>
+                    <div className={styles.imgWave}>
+                      <Image src={"/sound.png"} width={32} height={32} />
+                    </div>
+                    <div className={styles.waveOpen}>WAVE</div>
+                  </div>
+                </Link>
 
                 <nav className={styles.navbar}>
                   <ul>
@@ -50,7 +51,7 @@ function Layout({ children }) {
                       <Link href={"/watches"}>
                         <div className={styles.menuGrid}>
                           <div className={styles.menuItem1}>
-                            <p>ROLEX</p>
+                            <p>EPISODES</p>
                           </div>
                           <div className={styles.menuItem2}>{">"}</div>
                         </div>
@@ -91,14 +92,15 @@ function Layout({ children }) {
           <section
             className={!open ? styles.logoContainer : styles.displayNone}
           >
-            <div>
-              <Link href="/">
-                <h3 className={styles.title}>
-                  <span className={styles.rob}>ROB </span>
-                  <span className={styles.diamond}>DIAMOND</span>
-                </h3>
-              </Link>
-            </div>
+            <Link href="/">
+              <div className={styles.titleClosed}>
+                <div className={styles.infoClosed}>INFO </div>
+                <div className={styles.imgWave}>
+                  <Image src={"/sound.png"} width={32} height={32} />
+                </div>
+                <div className={styles.waveClosed}>WAVE</div>
+              </div>
+            </Link>
           </section>
 
           {/* CartIcon */}

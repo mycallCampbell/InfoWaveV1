@@ -26,20 +26,45 @@ margin-top: 10px;
   color: #747474;
 }
 
-.robDiamondTitle{
-  text-align: center;  
+/* Title */
+
+.titleOpen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
 }
 
-.robOpen {
+.infoOpen {
   color: #2e2e2e;
   letter-spacing: 3px;
   font-weight: 500;
 }
 
-.diamondOpen {
+.waveOpen {
   color: #2e2e2e;
   letter-spacing: 3px;
   font-weight: 500;
+}
+
+.titleClosed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+ }
+
+.infoClosed {
+  color: #2e2e2e;
+  letter-spacing: 3px;
+}
+.waveClosed {
+  color: #2e2e2e;
+  letter-spacing: 3px;
+}
+
+.imgWave {
+  margin: 0 5px;
 }
 
 .displayTitle{
@@ -90,19 +115,7 @@ margin: 20px;
 .navgrid {
   display: none;
 }
- .title {
-  font-weight: 500;
-  margin-top: 5px;
- }
-
-.rob {
-  color: #2e2e2e;
-  letter-spacing: 3px;
-}
-.diamond {
-  color: #2e2e2e;
-  letter-spacing: 3px;
-}
+ 
 
 .hamburgerIcon {
   margin-left: 10px;

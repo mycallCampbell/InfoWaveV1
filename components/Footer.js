@@ -8,18 +8,15 @@ function Footer({ src, width, height }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch(
-      "https://www.ebony-backend.website/api/emailSubscribers/",
-      {
-        method: "POST",
-        body: JSON.stringify({
-          email,
-        }),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }
-    );
+    const res = await fetch("", {
+      method: "POST",
+      body: JSON.stringify({
+        email,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
     const data = await res.json();
     if (data === "Success") {
       // set the input field to empty
@@ -33,10 +30,6 @@ function Footer({ src, width, height }) {
 
   return (
     <section className={styles.containerFooter}>
-      <div>
-        {/* <div className={styles.line}></div> */}
-        <div className={styles.content}></div>
-      </div>
       <div className={styles.artWork}>
         <Image src={src} width={width} height={height} />
       </div>
@@ -60,7 +53,7 @@ function Footer({ src, width, height }) {
 
         {/* Social Links */}
         <div className={styles.socials}>
-          <a href={"https://www.instagram.com/robdiamond_official/?hl=en-gb"}>
+          <a href={"/#"}>
             <Image src={"/instagramFooter.png"} width={60} height={60} />
           </a>
         </div>
@@ -97,7 +90,7 @@ function Footer({ src, width, height }) {
           </Link>
         </div>
         <div className={styles.locationTitle}>LOCATION </div>
-        <div className={styles.locationAddress}>Hatton Garden, London EC1N</div>
+        <div className={styles.locationAddress}>Place Holder</div>
         <div className={styles.locationUnited}>United Kingdom</div>
         <div className={styles.space}></div>
       </div>

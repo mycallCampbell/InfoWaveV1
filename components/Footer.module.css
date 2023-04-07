@@ -1,15 +1,4 @@
 
-
-
-.line {
-    border-top: solid 1px #000;
-    margin-bottom: 10px;
-}
-
-.content {
-    margin: 10px;
-}
-
 .containerMailingList{
     margin: 20px;
     text-align: center;
@@ -31,7 +20,7 @@
     cursor: pointer;
    } 
 
-   .menuItem {
+  .menuItem {
     display: grid;
     grid-template-columns: 5fr 2fr;
     align-items: start;

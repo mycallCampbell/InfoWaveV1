@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import Footer from "../components/Footer";
 import Link from "next/link";
-// import Meta from '../components/Meta';
 
 import styles from "../styles/contact.module.css";
 
@@ -39,7 +37,7 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // const res = await fetch("https://www.kylemitt-be.co.uk/api/sendEmail/", {
+    // const res = await fetch("/#", {
     //   method: "POST",
     //   body: JSON.stringify({
     //     firstName,
@@ -69,17 +67,13 @@ function Contact() {
     <section className={styles.container}>
       {/* <Meta /> */}
       <div>
-        <h1 className={styles.headerTitle}>ROB DIAMOND CONTACT</h1>
+        <h1 className={styles.headerTitle}>INFO WAVE CONTACT</h1>
       </div>
       <div className={styles.heroBtn}>
-        <a href="tel:07976753254">CALL NOW</a>
+        <a href="tel:07840292840">CALL NOW</a>
       </div>
       <div className={styles.heroBtn}>
-        <Link
-          href={"https://wa.me/447976753254?text=Welcome%20to%20RobDiamond"}
-        >
-          WHATSAPP
-        </Link>
+        <Link href={"/#"}>WHATSAPP</Link>
       </div>
       <div className={styles.contactInfo}>
         <p>
@@ -157,7 +151,6 @@ function Contact() {
           </div>
         )}
       </form>
-      <Footer src={"/cFooter.JPG"} width={3360} height={2240} />
     </section>
   );
 }
