@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "./Episodes.module.css";
 
-export default function () {
+export default function Episodes() {
   return (
     <>
       <div className={styles.title}>LATEST EPISODES</div>
