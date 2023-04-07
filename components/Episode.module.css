@@ -1,0 +1,39 @@
+
+.episodeContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+  color: #2e2e2e;
+  letter-spacing: 3px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.title span {
+    color: #15cd5b ;
+}
+
+.podContainer {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.listenBTN {
+    padding: 10px 0;
+    margin-bottom: 20px;
+    background: #379a5d;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 3px;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
