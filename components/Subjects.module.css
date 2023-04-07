@@ -1,0 +1,17 @@
+.container {
+
+}
+
+.title {
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.unorderedList {
+    margin: 20px 0 40px 0;
+}
+
+.unorderedList li {
+    margin: 5px;
+    text-align: start;
+}

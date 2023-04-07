@@ -15,6 +15,10 @@ export default function Episodes() {
         <Image src={"/podcasts_image_bg_remove.png"} width={250} height={250} />
       </div>
       <Episode />
+      <div className={styles.subTitle}>WANT TO SEE ALL EPISODES</div>
+      <div className={styles.CTAbuttonContainer}>
+        <div className={styles.CTAbutton}>LETS GO....</div>
+      </div>
     </>
   );
 }

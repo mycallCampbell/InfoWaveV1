@@ -10,7 +10,7 @@ export default function Episode() {
         <div className={styles.podContainer}>
           <div className={styles.title}>WHAT THE.... IS ChatGPT?</div>
           <Image src={"/what_the_is_GPT.png"} width={512} height={512} />
-          <button className={styles.listenBTN}>LISTEN</button>
+          <button className={styles.listenBTN}>PLAY</button>
         </div>
       </Link>
       <Link href={"/#"}>
@@ -19,7 +19,7 @@ export default function Episode() {
             IS <span>'AI'</span> TAKING OVER?
           </div>
           <Image src={"/Is_AI_Taking_Over.png"} width={512} height={512} />
-          <button className={styles.listenBTN}>LISTEN</button>
+          <button className={styles.listenBTN}>PLAY</button>
         </div>
       </Link>
     </div>

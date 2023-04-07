@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import styles from "../styles/Home.module.css";
 import Hero from "../components/Hero";
 import Episodes from "../components/Episodes";
+import Subjects from "../components/Subjects";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -24,8 +26,8 @@ export default function Home() {
         {/* HERO SECTION*/}
         <Hero />
         <Episodes />
-
-        {/* CTA */}
+        <Subjects />
+        <Footer src={"/footer_image.png"} width={1024} height={515} />
       </main>
     </div>
   );

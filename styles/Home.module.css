@@ -1,79 +1,24 @@
 /* color for 'Rob' on the title: #a37e2c */
-
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 /* BTN */
-.heroBtn {
-  margin: 10px auto 20px auto;
-  padding: 10px 80px;
-  text-align: center;
-  color: #ffffff;
-  border-radius: 2px;
-  background: #91c0dc;
-  border: 2px solid #91c0dc;
-  font-weight: 700;
-  font-size: 0.9rem;
-  cursor: pointer;
-}
 
-.readMoreBTN {
-  margin: 10px 0;
-  padding: 10px 80px;
-  text-align: center;
-  color: #ffffff;
-  border-radius: 2px;
-  background: #91c0dc;
-  border: 2px solid #91c0dc;
-  font-weight: 700;
-  font-size: 0.9rem;
-  cursor: pointer;
-}
-.heroImageDesktop{
-  display: none;
-}
-.readyFor {
-  margin-bottom: 5px;
-  text-transform: uppercase;
-}
 
-.collectionGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.letsGoBTN {
+  margin-top: 10px;
+  background: #379a5d;
+  padding: 10px 133px;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 3px;
 }
-
-.collectionTitle {
-  font-size: 1.4rem;
-  margin: 15px;
-}
-
-.grid {
-  -webkit-filter: brightness(100%);
-  margin: 10px;
-  text-align: center;
-  cursor: pointer;
-}
-
-.grid:hover {
-  -webkit-filter: brightness(70%);
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-}
-
-.gridContent {
-  margin: 5px;
-}
-
-.gridTitleRolex {
-  font-size: 0.8rem;
-  margin: 2px;
-}
-
 /* BLOG SECTION */
 
-.blogContent{
-  display: none;
-}
 .blog {
   margin: 30px;
   color: #2e2e2e;
@@ -91,30 +36,6 @@
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
   transition: all 1s ease;
-}
-
-.blog p {
-  margin: 20px auto;
-  z-index: 100;
-}
-
-.blogImage {
-  /* position: relative; */
-  z-index: -1000;
-}
-
-.blogCaption p {
-  letter-spacing: 3px;
-  font-weight: 500;
-  text-align: center;
-  margin: 20px 10px 0 10px; 
-}
-
-.bannerBottom {
-  min-height: 100px;
-  width: 100vw;
-  background: #a37e2c;
-  padding-top: 13px;
 }
 
 .main {
