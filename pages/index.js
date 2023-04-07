@@ -9,7 +9,7 @@ export default function Home() {
     <div className={styles.container}>
       {/*  META DATA */}
       <Head>
-        <title>INFO WAVE</title>
+        <title>INFO WAVE V1</title>
         <meta name="description" content="Rolex Specialists" />
         <meta property="og:image" content="faviconRob.ico" />
         <meta
