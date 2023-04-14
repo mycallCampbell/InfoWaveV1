@@ -12,7 +12,7 @@ export default function Home() {
       {/*  META DATA */}
       <Head>
         <title>INFO WAVE V1</title>
-        <meta name="description" content="Rolex Specialists" />
+        <meta name="description" content="Info Wave" />
         <meta property="og:image" content="faviconRob.ico" />
         <meta
           name="facebook-domain-verification"
